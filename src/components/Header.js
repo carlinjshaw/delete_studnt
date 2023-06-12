@@ -1,6 +1,5 @@
 import React from 'react';
-// Here we import the Header.css file to grant access to some additional classNames
-import '../styles/Header.css';
+import '../styles/Static.css';
 import Navigation from './Navigation';
 
 

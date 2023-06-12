@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from 'react-icons/fa';
+import '../styles/Pages.css';
 
 function Portfolio(props) {
     const images = [
