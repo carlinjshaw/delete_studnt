@@ -1,6 +1,7 @@
 import React from "react";
+import '../styles/Header.css';
 
-function Nav({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
 
     return (
         <nav>
@@ -22,4 +23,4 @@ function Nav({ currentPage, handlePageChange }) {
     );
 };
 
-export default Nav;
+export default Navigation;
