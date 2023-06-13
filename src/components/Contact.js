@@ -17,6 +17,7 @@ function ContactForm() {
   };
 
   return (
+    <div className="body">
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
@@ -46,6 +47,7 @@ function ContactForm() {
       </div>
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 }
 

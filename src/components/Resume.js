@@ -3,7 +3,9 @@ import '../styles/Pages.css';
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className="body">
+      Resume
+    </div>
   )
 }
 

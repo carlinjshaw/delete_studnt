@@ -36,14 +36,15 @@ function Portfolio(props) {
       }
       ,
       {
-        alt: '',
-        href: '',
-        text: '',
-        github: ''
+        alt: 'Note Taker',
+        href: 'https://enigmatic-garden-18659.herokuapp.com/',
+        text: 'This is an app for taking notes. The project uses Node, Express and JavaScript.',
+        github: 'https://github.com/PhilRug/note-taker.git'
       }
     ]
   
     return (
+      <div className="body">
       <section className="portfolio">
           <h2>Portfolio</h2>
            {images.map((image, i) => (
@@ -57,6 +58,7 @@ function Portfolio(props) {
                </div>
       ))}
       </section>
+      </div>
   )
   }
    
