@@ -8,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
     <header className="header">
       <div className="header-content">
         <h1 className="header-name">PJ Ruggiero</h1>
-        <Navigation className="header-navigation" />
+        <Navigation className="header-navigation" currentPage={currentPage} handlePageChange={handlePageChange}/>        
       </div>
     </header>
   );
