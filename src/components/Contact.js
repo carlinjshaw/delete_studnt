@@ -1,19 +1,27 @@
 import React, { useState } from 'react';
 import '../styles/Pages.css';
+import { validateEmail } from '../utils/helpers';
 
 function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [emailError, setEmailError] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+   
+    if (!validateEmail(email)) {
+      setEmailError('Please enter a valid email address.');
+      return;
+    }
+    
+    setEmailError('');
 
     console.log('Form submitted!');
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Message:', message);
-
   };
 
   return (
@@ -38,6 +46,7 @@ function ContactForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
+            {emailError && <p className="error">{emailError}</p>}
           </div>
           <div>
             <h3>Message</h3>

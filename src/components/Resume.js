@@ -12,7 +12,7 @@ const Resume = () => {
       <ul>
       <h2 className='title'>Technology Experience</h2>
         {techs.map((name) => (
-          <li key={name}>{name}</li> 
+          <li key={name} className='list-item'>{name}</li> 
         ))}
       </ul>
     </div>

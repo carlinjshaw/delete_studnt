@@ -124,3 +124,7 @@ button {
     background: var(--light);
     color: var(black);
 }
+
+.list-item {
+    color: var(--tan);
+}
