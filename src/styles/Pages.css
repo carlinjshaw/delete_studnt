@@ -10,9 +10,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     background-color: var(--dark);
-  }
+}
 
 .title {
     color: var(--orng);
@@ -88,6 +88,7 @@ h2 {
 
 p {
     color: var(--tan);
+    font-size: 15px;
 }
 
 .about {
@@ -99,27 +100,27 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-  }
+}
 
-  form {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  label {
+}
+
+label {
     color: white;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     background-color: white;
     color: var(--dark);
-  }
-  
-  button {
+}
+
+button {
     margin-top: 10px;
     background: var(--light);
     color: var(black);
-  }
+}
