@@ -33,4 +33,3 @@ download the repo and type
 If you have any questions you can contact us at:
 - Github https://github.com/PhilRug
 - Email ruggiero.pj@gmail.com
-- Github https://github.com/gabrielaortiz6
