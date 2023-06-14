@@ -46,15 +46,15 @@ function Portfolio(props) {
     return (
       <div className="body">
       <section className="portfolio">
-          <h2>Portfolio</h2>
+          <h2 className="title">Portfolio</h2>
            {images.map((image, i) => (
                <div className="span">
                   <img src={require(`../Images/${i}.png`)} alt={image.alt}/>
-                  <div className="image_overlay">
+                  <span className="image_overlay">
                       <span className="image_title" onClick={() => window.open(`${image.href}`)}>{image.alt}</span>
                       <p className="image_description">{image.text}</p>
                       <span className="githubLink"><FaGithub onClick={() => window.open(`${image.github}`)}/></span>
-                  </div>
+                  </span>
                </div>
       ))}
       </section>

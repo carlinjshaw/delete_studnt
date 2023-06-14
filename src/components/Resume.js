@@ -4,7 +4,7 @@ import '../styles/Pages.css';
 const Resume = () => {
   return (
     <div className="body">
-      Resume
+      <h1 className='title'>Resume</h1>
     </div>
   )
 }

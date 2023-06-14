@@ -18,6 +18,8 @@ function ContactForm() {
 
   return (
     <div className="body">
+      <h2 className="title">Contact Me</h2>
+      <div className='contactform'>
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
@@ -47,6 +49,7 @@ function ContactForm() {
       </div>
       <button type="submit">Submit</button>
     </form>
+    </div>
     </div>
   );
 }
